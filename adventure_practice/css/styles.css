@@ -1,0 +1,44 @@
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('/img/limbo.jpg'); /* Añadido el punto y coma al final de esta línea */
+    background-size: cover;
+    background-position: center;
+}
+
+#encabezado {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#pagina1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#pagina1 a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #7d44b3;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#pagina1 a:hover {
+    background-color: #7d44b3;
+}
+
+#pie-de-pagina {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
