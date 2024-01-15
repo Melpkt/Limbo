@@ -1,0 +1,56 @@
+body {
+    background-image: url('/img/pacto_by_Jesus\ ArmandoMoralesBrizuela.jpg');
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+#texto {
+    background: url('/img/mancha.png') center/contain no-repeat;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#card {
+    width: 190px;
+    height: 254px;
+    border-radius: 20px;
+    transition: all 0.3s;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    background-image: linear-gradient(163deg, #262935  0%, #b30938 100%);
+}
+
+#card a {
+    text-decoration: none;
+    color: #fff; /* Color blanco para el enlace */
+}
+
+#card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(255, 255, 255, 0.664);
+}
+
+#pie {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
